@@ -102,3 +102,40 @@ li.menu-active a {
   margin-right: 10rem;
   margin-left: 10rem;
 }
+
+.title {
+  font-size: 32px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.description {
+  line-height: 25px;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 40px;
+  margin: 0 0 30px 0;
+}
+
+#events {
+  background: linear-gradient(
+      rgba(255, 256, 255, 0.9),
+      rgba(255, 255, 255, 0.9)
+    ),
+    url(https://eagerbeavers.charusat.ac.in/img/services-bg.jpg) fixed center
+      center;
+  background-size: cover;
+  padding: 80px 0 60px 0;
+}
+
+#events .container .title h3 {
+  font-size: 32px;
+  color: #111;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+}
+
