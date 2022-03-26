@@ -128,7 +128,9 @@ li.menu-active a {
     url(https://eagerbeavers.charusat.ac.in/img/services-bg.jpg) fixed center
       center;
   background-size: cover;
-  padding: 80px 0 60px 0;
+}
+#events .container {
+  padding: 80px 12rem 60px 12rem;
 }
 
 #events .container .title h3 {
@@ -136,6 +138,157 @@ li.menu-active a {
   color: #111;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 15px;
   font-weight: 700;
 }
 
+#events .container .details {
+  display: flex;
+  /* justify-content: center;
+  align-content: center; */
+}
+
+#events .container .details .card {
+  width: 33.333%;
+  margin-bottom: 20px;
+  /* margin-right: 1rem; */
+  padding: 1rem;
+}
+
+.card {
+  cursor: pointer;
+}
+
+.details .icon {
+  float: left;
+  background: #90581a;
+  cursor: pointer;
+  padding: 16px;
+  border-radius: 50%;
+  transition: 0.5s;
+  color: #fff;
+  border: 1px solid #90581a;
+}
+
+.details .icon .fa-brands {
+  font-weight: 300;
+}
+
+.details .title {
+  margin-left: 80px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.details .dtl {
+  margin-left: 80px;
+  line-height: 24px;
+}
+
+.divider {
+  width: 50px;
+  height: 3px;
+  background: #90581a;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.card:hover .icon {
+  color: #90581a;
+  background: #fff;
+  border: 1px solid #90581a;
+}
+
+.btn {
+  color: white;
+  background-color: #90581a;
+  float: right;
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+#team {
+  background: #fff;
+  padding: 80px 0 60px 0;
+}
+
+#team .title h3 {
+  font-size: 32px;
+  color: #111;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.con {
+  padding: 0 10rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.mbr {
+  width: 50%;
+  display: flex;
+}
+
+.mbr .card {
+  cursor: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.mbr .card .photo img {
+  border-radius: 50%;
+  height: 255px;
+  width: 255px;
+}
+
+.mbr .card h4 {
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 2px;
+  text-align: center;
+}
+
+.mbr .card span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+}
+
+.mbr .card .lnicon {
+  margin-top: 15px !important;
+  font-size: 18px;
+  margin: 0 2px;
+}
+.mbr .card .lnicon i {
+  transition: 0.5s;
+  color: #b3b3b3;
+}
+
+.mbr .card .lnicon i:hover {
+  color: #90581a;
+}
+
+.team .mbr {
+  width: 25%;
+}
