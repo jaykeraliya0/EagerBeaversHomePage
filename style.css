@@ -253,7 +253,6 @@ li.menu-active a {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 .mbr .card .photo img {
@@ -291,4 +290,88 @@ li.menu-active a {
 
 .team .mbr {
   width: 25%;
+}
+
+#contact {
+  background: #f7f7f7;
+  padding: 80px 0;
+}
+
+#contact .content {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 20rem;
+}
+
+#contact .content .info {
+  width: 40%;
+  color: #333333;
+}
+
+#contact .content .info i {
+  font-size: 32px;
+  color: #90581a;
+  float: left;
+}
+
+#contact .content .info a {
+  text-decoration: none;
+}
+
+#contact .content .info p {
+  padding: 0 0 10px 50px;
+  line-height: 24px;
+  font-weight: 200;
+  margin: 0 0 30px 0;
+}
+
+#contact .content .info i {
+  font-size: 25px;
+}
+
+#contact .content .form {
+  margin: 1rem;
+  margin-top: 0;
+  justify-content: center;
+  display: block;
+  width: 100%;
+}
+
+#contact .content .form .frm {
+  margin-bottom: 15px;
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  outline: none;
+}
+
+#contact .content .form .frm:focus {
+  border: 1px solid #66afe9;
+}
+
+#contact .content .form .sbtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#contact .content .form .sbtn button {
+  background: #90581a;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+#contact .content .form .sbtn button:hover {
+  background-color: #66afe9;
 }
